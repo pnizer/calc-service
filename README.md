@@ -16,6 +16,7 @@ The service can be invoked by the url http://localhost:8080/
 
 ## API
 
+* Sum
 ```
 POST /sum
 Content-type: application/json
@@ -26,7 +27,7 @@ Content-type: application/json
 }
 ```
 
-
+* Product by 2
 ```
 POST /product
 Content-type: application/json
@@ -36,6 +37,7 @@ Content-type: application/json
 }
 ```
 
+* 2nd power (^2)
 ```
 POST /power
 Content-type: application/json
@@ -43,4 +45,9 @@ Content-type: application/json
 {
    "s": 10
 }
+```
+
+* Get the history of results from database
+```
+GET /history
 ```
